@@ -1,0 +1,8 @@
+#project yml file
+project_0:
+  url: "/"
+  description: "Environment Set Up"
+project_1:
+  url: "/"
+  description: "Customer Home Page Route"
+

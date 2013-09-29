@@ -5,7 +5,8 @@ require 'rails/all'
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
-
+PROJECTS=YAML.load(File.read(File.expand_path('config/projects.yml')))
+PROJECTS.symbolize_keys!
 module Myproject1
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
