@@ -7,4 +7,7 @@ class StaticPagesController < ApplicationController
 
   def Project1
   end
+
+  def Project2
+  end
 end
