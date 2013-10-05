@@ -1,6 +1,6 @@
 <h1>Mayyin O'Neill</h1>
 
-<table>
+<table class="center">
   <thead>
 	<tr>
 	  <th>Project </th>
@@ -10,7 +10,8 @@
   </thead>
   <tbody>
 	<% PROJECTS.each do |project, details| %>
-	  <tr>
+	  <tr onmouseover="this.style.backgroundColor='#98FF98';"
+              onmouseout="this.style.backgroundColor='d4e3e5';">
 		<td><%= project%></td>
 		<td><%= details['description']%></td>
 		<td><%= link_to details['url'], project %></td>
