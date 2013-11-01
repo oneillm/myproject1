@@ -12,6 +12,6 @@ class StaticPagesController < ApplicationController
   end
 
   def project3
-    @date = params[:month] ? Date.parseDate(params[:month]) : Date.today
+    @date =  Date.today
   end
 end
