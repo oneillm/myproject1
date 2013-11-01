@@ -121,3 +121,19 @@ table.center tbody tr td {
 table.center tbody tr td:hover {
   background-color: #CAFF70;
 }
+table.calendar {
+   margin-left:auto;
+   margin-right:auto;
+   table-layout: fixed; width: 100%;
+}
+table.calendar thead {
+      align:center;
+      font-family: arial;
+      font-size:12px;
+      font-weight: bold; 
+}
+
+table.calendar td:hover {
+  background-color: #ffffcc;
+  color: #222;
+}
